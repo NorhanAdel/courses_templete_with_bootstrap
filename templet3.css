@@ -1,0 +1,204 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+     
+     }
+     body{
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+        
+     }
+     .pdy{
+      padding: 50px 0;
+     }
+ 
+     .title{
+      text-align: center;
+      margin-bottom: 30px;
+   }
+    
+.main-content{
+        border-radius: 10px;
+        background-color: rgba(128, 128, 128, 0.24);
+     }
+.welcome{
+      height: 300px;
+      color: blue;
+     
+   }
+   .welcome p{
+      font-size: 20px;
+   }
+   .descreption{
+       color: #fff;
+       margin-top: 30px;
+   }
+   .descreption .des{
+      font-size: 25px;
+   }
+   .descreption .coding{
+      margin-left: 70px;
+      font-size: 25px;
+      color: blue;
+   }
+    .background_section{
+      width: 100%;
+      height: 60vh;
+      background-image: url('wallpaperflare.com_wallpaper\ \(5\).jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .item-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    }
+    .items .item{
+       
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+     
+    }
+    .items .item img{
+      width: 100%;
+      height: 170px;
+      border-radius: 10px;
+    }
+    .background2_section{
+      width: 100%;
+      height: 60vh;
+      background-image: url('wallpaperflare.com_wallpaper\ \(6\).jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .people .people-content{
+    display: flex;
+    justify-content: space-between;
+    }
+    .people .people-item{
+    width: 30%;
+      border: 1px solid #ddd;
+      padding: 30px;
+      border-radius: 15px;
+    }
+    .people-item img{
+      width: 100%;
+      border-radius: 15px;
+    }
+    .people-content h4{
+      margin-top: 20px;
+    }
+    .join{
+      padding: 60px ;
+    }
+    .join .join-content{
+      display: flex;
+      justify-content: space-between;
+    }
+    .join-content .join-item{
+ 
+      text-align: center;
+      background: #000;
+      color: #fff;
+       width: 25%;
+       margin: 10px;
+       padding: 30px 0;
+       border-radius: 10px;
+    }
+    footer{
+      background-color: #000000;
+      
+  }
+  .footer-content{
+      display: flex;
+      padding: 50px 0;
+      justify-content: space-between;
+  }
+  .footer-content h1{
+      color: #fff;
+      font-weight: 400;
+      font-size: 25px;
+      margin-bottom: 20px;
+  }
+  .footer-content ul li{
+      color: #b6b2b2b9;
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+  .div1{
+      width: 40%;
+  }
+  .div1 p{
+      color: #b6b2b2b9;
+      font-size: 14px;
+      margin: 20px 0;
+      line-height: 1.9;
+  }
+  .div4{
+      text-align: center;
+  }
+  .div4 input{
+  margin-top: 40px;
+  background: none;
+  border-bottom: 1px solid #b6b2b291;
+  padding: 10px;
+  color: #fff;
+   
+  }
+  .div4 i{
+      color: #fff;
+      margin: 20px 10px;
+  }
+  @media(max-width:450px){
+
+.item-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.people-content{
+display: flex;
+flex-direction: column;
+ }
+ .people-content .people-item{
+  width: 100%;
+  margin-bottom: 10px;
+ }
+ .join{
+  padding:20px 20px;
+ }
+ .join-content{
+   
+  flex-direction: column;
+ }
+.join-content .join-item{
+ 
+ width: 100%;
+}
+
+.footer-content{
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content .div1{
+  width: 100%;
+}
+.descreption .des{
+  font-size: 15px;
+}
+
+.descreption .coding{
+  margin-left: 40px ;
+  font-size: 15px;
+}
+  }
+
